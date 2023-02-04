@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <style>
+      /* Mise en forme générale */
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        padding: 30px;
+        background-color: #051039;
+      }
+      .container {
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      /* Mise en forme de la photo de profil */
+      .profile-picture {
+        float: left;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 30px;
+      }
+      .profile-picture img {
+        width: 100%;
+        height: 100%;
+      }
+      /* Mise en forme du nom et du titre */
+      .profile-info h1 {
+        font-size: 36px;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      .profile-info h2 {
+        font-size: 24px;
+        color: rgb(183, 177, 177);
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      /* Mise en forme de la section de contact */
+      .contact-info {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        color: black;
+        margin-bottom: 30px;
+      }
+      .contact-info i {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+
+      /* Mise en forme des sections */
+      .section {
+        clear: both;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+      .section skills {
+        height: 700px;;
+
+     }
+      .section-title {
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      /* Mise en forme des expériences professionnelles */
+      .experience {
+        margin-bottom: 20px;
+      }
+      .experience h3 {
+        font-size: 24px;
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      .experience .date {
+        font-style: italic;
+        color: #666;
+      }
+
+      /* Mise en forme des formations */
+      .education {
+        margin-bottom: 20px;
+      }
+      .education .date {
+        font-style: italic;
+        color: #666;
+      }
+      .education h3 {
+        font-size: 24px;
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      #droite {
+        float: right;
+        width: 44%;
+      }
+      #gauche {
+        float: left;
+        width: 44%;
+      }
+     
+      /* Mise en forme des compétences */
+      .skills {
+        margin-bottom: 20px;
+      }
+      .skills h3 {
+        font-size: 24px;
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      .skills ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .skills li {
+        font-size: 20px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+      .skills h2 {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      .skill-bar {
+        height: 20px;
+        background-color: lightgray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        width: 80%;
+      }
+      .skill-level {
+        height: 100%;
+        width: 70%;
+        background-color: red;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-info">
+        <h1>AHMAT DJALABI Ali</h1>
+        <h2>Technicien informatique en apprentissage</h2>
+        <div class="contact-info">
+          <i class="fa fa-envelope"></i><a href="mailto:djalabiali@gmail.com">djalabiali@gmail.com</a> 
+          <br>
+          <i class="fa fa-envelope"></i>1 allée des bosquets 94800, Villejuif
+          <br>
+          <i class="fa fa-phone"></i>+33 6 16 82 17 01
+          <i class="fa fa-phone"></i><p>Je suis un passionné de la technologie et d'apprentissage. J'ai acquis des compétences en développement de logiciels grâce à ma formation en informatique. Je suis capable de travailler en équipe, de respecter les délais et de m'adapter aux nouveaux défis. Mon objectif est de trouver une opportunité pour mettre mes compétences en pratique et pour continuer à développer mes connaissances.</p>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="section-title">Expériences professionnelles</h2>
+         <div class="experience">
+          <h3>Assistant support informatique</h3>
+          <p class="date">Arcade Nettoyage Vitry-sur-seine (94)<br>Juillet 2022 - Août 2022</p>
+          <p>- Résolution des problèmes techniques: aide les utilisateurs à résoudre des
+            problèmes informatiques tels que des erreurs de logiciel, des pannes de
+            matériel, etc.
+          <br>- Installation et configuration de matériel et de logiciels: aide les utilisateurs
+            à installer et à configurer des ordinateurs, des imprimantes, des logiciels,
+            etc.</p>
+        </div>
+        <div class="experience">
+          <h3>Stagiaire assistant administratif & commercial</h3>
+          <p class="date">Adequat, Vitry-sur-seine 94<br>Janvier 2019 - Février 2019</p>
+          <p>- Saisie des heures
+            <br>- Classement des contrats intérimaires
+            <br>- Traitement des mails
+            <br>- Traitement des appels téléphoniques
+            <br>- Traitement des courriers
+            <br>- Traitement des acomptes intérimaire</p>
+        </div>
+       
+      </div>
+      <div class="section">
+        <h2 class="section-title">Projets universitaires</h2>
+        <div class="education">
+          <h3>Création d'un système d'information géographique</h3>
+          <p class="date"></p>
+          </div>
+          <p>Création d'une carte interactive qui permet de répertorier tous les lycées d'Île-de-France avec un pop-up<br>listant le nombre d'étudiants de l'IUT en provenance de ce lycée, le genre, la spécialité et le diplôme obtenu<br>en utilisant python avec plusieurs modules tel que pandas ou encore geopy et un dossier excel contenant les données géographiques des lycée.</p>
+          <div class="education">
+            <h3>Création d'une base de données</h3>
+            <p class="date">Uniservité Paris-Est-Créteil, Vitry-sur-seine (94)<br>Novembre 2022 - Décembre 2022</p>
+            <p>Création d'une base de données contenant les informations des lycées cibles,
+              tel que le nom du lycée, sa commune, son département, etc. Cette base de
+              données servira à alimenter la carte interactive du projet suivant.</p>
+            </div>
+      </div>
+      <div class="section">
+        <h2 class="section-title">Formations</h2>
+        <div class="education">
+          <h3>BUT Informatique</h3>
+          <p class="date">Uniservité Paris-Est-Créteil, Vitry-sur-seine (94)<br>2022-2025</p>
+          </div>
+        <div class="education">
+          <h3>Baccalauréat technologique</h3>
+          <p class="date">Lycée polyvalent de Cachan, Cachan (94)<br>2022</p>
+          </div>
+          <div class="education">
+            <h3>Formation au premier secours et des gestes qui sauvent</h3>
+            <p class="date">Lycée polyvalent de Cachan, Cachan (94)<br>2020</p>
+            </div>
+      </div>
+      
+      <div class="section skills" style="height:700px";">
+        <div class="section skills">
+          <h2 class="section-title">Compétences</h2>
+          <div id="gauche"><h3>Langages</h3>
+          <h4>Python</h4>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 80%">
+            </div>
+          </div>
+          <h4>SQL</h4>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 85%">
+            </div>
+          </div>
+          <h4>JavaScript</h4>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 60%">
+            </div>
+          </div>
+          <h4>HTML</h4>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 90%">
+            </div>
+          </div>
+          <h4>CSS</h4>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 90%"></div>
+          </div>
+        </div>
+          <div id="droite">
+              <h3>Langues</h3>
+          <h4>Français</h4>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 95%">
+            </div>
+          </div>
+          <h4>Anglais</h4>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 65%">
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </body>
+    </html>
+
